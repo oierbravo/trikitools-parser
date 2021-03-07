@@ -8,31 +8,6 @@ var factoryExpression = require('./factory-expression')
 
 function trikiExpression(options) {
   var settings = options || {}
-  //var addResult = settings.addResult
-  //var acorn = settings.acorn
-  //var spread
-  //var acornOptions
-
-  /*if (acorn) {
-    if (!acorn.parseExpressionAt) {
-      throw new Error(
-        'Expected a proper `acorn` instance passed in as `options.acorn`'
-      )
-    }
-
-    acornOptions = Object.assign(
-      {ecmaVersion: 2020, sourceType: 'module'},
-      options.acornOptions || {}
-    )
-
-    // Hidden: `micromark-extension-mdx-jsx` supports expressions in tags,
-    // and one of them is only “spread” elements.
-    // Instead of duplicating code there is a small hidden feature here to
-    // support that.
-    spread = settings.spread
-  } else if (settings.acornOptions || settings.addResult) {
-    throw new Error('Expected an `acorn` instance passed in as `options.acorn`')
-  }*/
 
   return {
     flow: {123: {tokenize: tokenizeFlowExpression, concrete: true}},
