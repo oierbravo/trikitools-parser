@@ -31,15 +31,10 @@ function createFromMarkdown(options) {
 
   function exitTrikiExpression(token) {
     var value = this.resume()
-    //var node = this.exit({type: 'trikiFlowExpression'},token)
     var node = this.exit(token)
-    //node.children = token.childre || []
-  
     if (token.value) {
-      //node.value = {children: token.children}
       node.children = token.value
     }
-    
   }
   function enterTrikiPart(token){
     this.enter({type: 'trikiPart', repetitions: 0, children: []}, token);
@@ -48,20 +43,8 @@ function createFromMarkdown(options) {
   function exitTrikiPart(token){
     this.config.enter.data.call(this, token)
     this.config.exit.data.call(this, token)
-    //this.exit({type: 'trikiPart'},token)
-    //this.enter({type: 'trikiFlowExpression', value: ''}, token);
-    //var value = this.resume()
-    //var node = this.exit(token);
-    //if (token.children) {
-    //  node.children = {children: token.children}
-    //}
-    var a = '';
   }
   function exitTrikiExpressionData(token) {
-    //this.config.enter.enterTrikiPart.call(this, token)
-    //this.config.exit.enterTrikiPart.call(this, token)
-    //this.exit({type: 'trikiFlowExpression'},token)
-    //this.config.exit.data.call(this, token)
     this.config.enter.data.call(this, token)
     this.config.exit.data.call(this, token)
   }

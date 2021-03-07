@@ -4,5 +4,8 @@
   "description": "Mdast proccessor for trikitixa",
   "author": "Oier Bravo Urtasun",
   "license": "ISC",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "strip-indent": "^3.0.0"
+  }
 }
