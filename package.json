@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "description": "Unifiedjs tools for trikitixa",
   "author": "Oier Bravo Urtasun",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
