@@ -1,9 +1,9 @@
 'use strict'
 
-var syntax = require('../micromark-extension-triki')
+var syntax = require('micromark-extension-triki')
 //var fromMarkdown = require('../mdast-util-triki/expression-from-markdown')
 //var toMarkdown = require('../mdast-util-triki/to-markdown')
-var trikiUtils = require('../mdast-util-triki/')
+var trikiUtils = require('mdast-util-triki/')
 
 //var toHast = require('../mdast-util-triki/to-hast')
 
