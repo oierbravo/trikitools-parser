@@ -1,12 +1,12 @@
 {
   "name": "remark-plugin-triki",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Remark plugin for trikitixa",
   "author": "Oier Bravo Urtasun",
   "license": "ISC",
   "main": "index.js",
   "dependencies": {
-    "mdast-util-triki": "^0.0.4",
-    "micromark-extension-triki": "^0.0.4"
+    "mdast-util-triki": "^0.0.5",
+    "micromark-extension-triki": "^0.0.5"
   }
 }
