@@ -1,0 +1,8 @@
+{
+  "name": "mdast-util-triki",
+  "version": "0.0.1",
+  "description": "Mdast proccessor for trikitixa",
+  "author": "Oier Bravo Urtasun",
+  "license": "ISC",
+  "main": "index.js"
+}
