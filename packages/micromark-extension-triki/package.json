@@ -1,6 +1,6 @@
 {
   "name": "micromark-extension-triki",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Micromark extension for trikitixa",
   "author": "Oier Bravo Urtasun",
   "license": "ISC",
