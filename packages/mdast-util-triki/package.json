@@ -1,6 +1,6 @@
 {
   "name": "mdast-util-triki",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Mdast proccessor for trikitixa",
   "author": "Oier Bravo Urtasun",
   "license": "ISC",
