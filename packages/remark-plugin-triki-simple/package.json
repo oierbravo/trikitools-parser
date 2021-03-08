@@ -1,0 +1,12 @@
+{
+  "name": "remark-plugin-triki-simple",
+  "version": "0.0.1",
+  "description": "Remark plugin for trikitixa old version",
+  "author": "Oier Bravo Urtasun",
+  "license": "ISC",
+  "main": "index.js",
+  "dependencies": {
+    "mdast-util-to-string": "^2.0.0",
+    "unist-util-visit": "^2.0.3"
+  }
+}
